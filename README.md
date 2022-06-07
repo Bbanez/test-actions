@@ -36,7 +36,7 @@ async function main() {
   const result = await client.entry.get({
     template: 'pages', // Template name or ID
     entry: 'home', // Entry slug or ID
-  });
+  }); 
   console.log(result);
 }
 main().catch((err) => {
